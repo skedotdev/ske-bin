@@ -1,0 +1,41 @@
+{
+    "name": "ske/bin",
+    "type": "project",
+    "description": "The Ske Binary",
+    "license": "Apache-2.0",
+  	"homepage": "https://packagist.org/packages/ske/bin",
+  	"keywords": [
+        "binary",
+        "fetch",
+        "runtime",
+	  	"compiler",
+	  	"parser",
+	  	"compressor",
+	  	"archiver",
+	  	"installer"
+    ],
+    "authors": [{
+        "homepage": "https://dev.sikessem.com",
+        "name": "SIGUI Kessé Emmanuel",
+        "email": "contact@sikessem.com",
+        "role": "Developer"
+    }],
+    "support": {
+        "source": "https://github.com/skedotdev/ske-bin",
+        "issues": "https://github.com/skedotdev/ske-bin/issues"
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+  	"scripts": {
+	  	"app": "./bin/ske app"
+	},
+    "config": {
+        "vendor-dir": "pkg",
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "bin": "./bin/ske",
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

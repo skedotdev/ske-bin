@@ -1,0 +1,31 @@
+{
+  "name": "ske-bin",
+  "version": "0.0.0",
+  "description": "The Ske Binary",
+  "homepage": "https://npmjs.com/package/ske-bin",
+  "license": "Apache-2.0",
+  "main": "ske.js",
+  "scripts": {
+    "app": "./bin/ske app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skedotenv/ske-bin.git"
+  },
+  "keywords": [
+    "binary",
+	"runtime",
+	"compiler",
+	"parser",
+	"compressor",
+	"archiver",
+	"installer"
+  ],
+  "bin": {
+    "ske": "./bin/ske"
+  },
+  "author": "SIGUI Kessé Emmanuel <contact@sikessem.com>",
+  "bugs": {
+    "url": "https://github.com/skedotenv/ske-bin/issues"
+  }
+}
