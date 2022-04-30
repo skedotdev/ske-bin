@@ -31,7 +31,7 @@
 	  	"app": "./bin/ske app"
 	},
     "config": {
-        "vendor-dir": "pkg",
+        "vendor-dir": "php_packages",
         "preferred-install": "dist",
         "sort-packages": true
     },
